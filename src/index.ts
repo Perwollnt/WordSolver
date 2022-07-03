@@ -23,4 +23,4 @@ client.on('interactionCreate', (interaction) => {
     if(interaction.isSelectMenu()) InteractionHandler.handleMenuInteractions(interaction as SelectMenuInteraction);
 });
 
-client.login(process.env.TOKEN);
+client.login(process.env.TOKEN); 
