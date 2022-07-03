@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json.schemastore.org/vsls",
+    "gitignore": "none",
+    "excludeFiles": [
+        "*.p12",
+        "*.cer",
+        "token",
+        ".gitignore"
+    ],
+    "hideFiles": [
+        "node_modules/",
+        ".env",
+        "secrets/",
+        "json.sqlite",
+        "tsconfig.json",
+        "dist/",
+        "package-lock.json",
+        "package.json"
+    ]
+}
